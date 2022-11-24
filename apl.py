@@ -7,7 +7,7 @@ import joblib
 
 def main():
     st.title('Loan Defaulters Prediction')
-    filename = 'Adaboost.pkl'
+    filename = 'gradientboost.pkl'
     loaded_model = joblib.load(filename)
     col1, col2 = st.columns(2)
     with col1:
